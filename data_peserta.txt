@@ -1,0 +1,7 @@
+Data Peserta Bootcamp Digital Skill Devops
+1. Nama: Mochammad Delvin Farhan Akbar
+2. Email: mochdelvinfarhan@gmail.com
+3. Sistem Operasi yang digunakan: Windows 11
+4. Akun Gitlab/Github: gitlab.com/mochdelvinfarhan , https://github.com/delvinfarhan
+5. Akun Telegram: @Delvin_UwU
+6. Bahasa Pemrograman/Stack Yang dikuasai: Python
