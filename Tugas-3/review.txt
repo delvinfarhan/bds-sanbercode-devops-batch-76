@@ -1,0 +1,7 @@
+Saran dari AI:
+- Perlu pengecekan apakah file syslog.txt ada sebelum di-copy
+- Perlu pengecekan apakah folder backup-log sudah ada agar tidak error
+- Bisa ditambahkan error handling
+
+Pendapat saya:
+Saya setuju dengan saran AI karena script masih sederhana dan belum aman jika terjadi error. Namun untuk tugas dasar ini, script sudah cukup berjalan dengan baik.
