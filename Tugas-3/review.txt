@@ -1,5 +1,5 @@
 Saran dari AI:
-- Perlu pengecekan apakah file syslog.txt ada sebelum di-copy
+- Perlu pengecekan apakah file syslog.txt ada sebelum dicopy
 - Perlu pengecekan apakah folder backup-log sudah ada agar tidak error
 - Bisa ditambahkan error handling
 
