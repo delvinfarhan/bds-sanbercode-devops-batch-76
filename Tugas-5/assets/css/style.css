@@ -1,0 +1,188 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* BODY */
+body {
+    background: #f5f5f5;
+    color: #203239;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #203239;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+/* MAIN OFFSET */
+main {
+    margin-top: 120px;
+}
+
+/* HERO */
+.container_hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+
+    padding: 80px 0;
+}
+
+.container_hero-headline {
+    max-width: 350px;
+}
+
+.container_hero-headline h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.container_hero-headline small {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container_hero-headline ul {
+    display: flex;
+    gap: 15px;
+}
+
+.container_hero-headline ul li {
+    list-style: none;
+}
+
+.container_hero-image img {
+    width: 420px;
+}
+
+.container_hero {
+    flex-direction: row-reverse;
+}
+
+/* DESKRIPSI */
+.container_describe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 120px;
+    padding: 80px 0;
+}
+
+/* BOX KIRI */
+.container_describe-animation {
+    background: #203239;
+    padding: 120px 140px;
+}
+
+.container_describe-animation i {
+    font-size: 80px;
+    color: white;
+    animation: putar 1s infinite alternate;
+}
+
+/* ANIMATION */
+@keyframes putar {
+    from {
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+/* BOX KANAN */
+.container_describe-info__card {
+    border: 3px solid #203239;
+    padding: 30px;
+    width: 400px;
+    background: white;
+}
+
+/* PORTOFOLIO */
+.container-wrapping__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    max-width: 900px;   
+    margin: auto;       
+}
+
+.container-wrapping__card img {
+    width: 200px;
+    height: 200px;      
+    object-fit: cover;  
+
+    transition: 0.3s;
+}
+
+.container-wrapping__card img:hover {
+    transform: scale(1.5);
+}
+
+/* RIWAYAT */
+.container-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+    padding: 80px 0;
+}
+
+.container-history__table {
+    width: 500px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #203239;
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px 40px;
+    font-size: 14px;
+}
