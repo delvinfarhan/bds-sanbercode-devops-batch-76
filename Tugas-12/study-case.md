@@ -1,0 +1,1 @@
+Menghapus service dan package yang tidak digunakan penting untuk meningkatkan keamanan dan performa server. Service yang tidak dipakai masih bisa menggunakan resource seperti RAM dan CPU serta berpotensi menjadi celah keamanan. Dengan melakukan apt purge, server menjadi lebih ringan, stabil, dan memiliki risiko keamanan yang lebih kecil.
