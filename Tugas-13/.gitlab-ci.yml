@@ -1,0 +1,14 @@
+stages:
+  - test
+
+run-test:
+  stage: test
+  image: alpine:latest
+
+  only:
+    - main
+
+  script:
+    - echo "Pipeline Berjalan Sukses di GitLab CI!"
+    - echo "Memeriksa secret key..."
+    - echo "Secret Key: $MY_SECRET_KEY"
