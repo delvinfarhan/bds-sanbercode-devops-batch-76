@@ -43,7 +43,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "dist/*"
-          target: "/home/${{ secrets.SERVER_USERNAME }}/deploy-artifact"
+          target: "/root/deploy-artifact"
 
       - name: Execute Command via SSH
         uses: appleboy/ssh-action@v1.0.3
